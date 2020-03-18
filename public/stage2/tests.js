@@ -9,9 +9,8 @@ describe('ステージ2（意図した通りに DOM 要素の属性・テキス�
       //
       // ここに以下のコードを記述してください。
       //
-      // var element = document.getElementById('firebrick');
-      // element.textContent = element.textContent + element.textContent;
-      var element = 'change me!';
+      var element = document.getElementById('firebrick');
+      element.textContent = element.textContent + element.textContent;
 
 
       expect(element).to.have.property(secret('vq'), secret('sveroevpx'));
@@ -24,7 +23,8 @@ describe('ステージ2（意図した通りに DOM 要素の属性・テキス�
 
       // ここにコードを記述してください。
       // 変更した DOM 要素は element 変数に代入してください。
-      var element = 'change me!';
+      var element = document.getElementById('chocolate');
+      element.textContent = element.textContent + element.textContent;
 
 
       expect(element).to.have.property(secret('vq'), secret('pubpbyngr'));
@@ -40,7 +40,9 @@ describe('ステージ2（意図した通りに DOM 要素の属性・テキス�
 
       // ここにコードを記述してください。
       // 変更した DOM 要素は element 変数に代入してください。
-      var element = 'change me!';
+      var element = document.querySelector('ul li:nth-child(3)');
+      var style = element.style;
+      style.backgroundColor = 'limegreen';
 
 
       expect(element).to.have.property(
@@ -58,8 +60,9 @@ describe('ステージ2（意図した通りに DOM 要素の属性・テキス�
 
       // ここにコードを記述してください。
       // 変更した DOM 要素は element 変数に代入してください。
-      var element = 'change me!';
-
+      var element = document.querySelector('ul li:nth-child(4)');
+      var style = element.style;
+      style.opacity = 0.5;
 
       expect(element).to.have.property(
         secret('pynffAnzr'), secret('ghedhbvfr'));
@@ -76,7 +79,9 @@ describe('ステージ2（意図した通りに DOM 要素の属性・テキス�
 
       // ここにコードを記述してください。
       // 変更した DOM 要素は element 変数に代入してください。
-      var element = 'change me!';
+      var element = document.querySelector('ul li:nth-child(5) blockquote');
+      var style = element.style;
+      style.transform = 'rotate(10deg)'
 
 
       expect(element).to.have.property(
@@ -97,7 +102,11 @@ describe('ステージ2（意図した通りに DOM 要素の属性・テキス�
       //
       // なお、上に 20px 移動させる方法は複数ありますが、今回は top 属性を
       // 使う方法を使ってください。
-      var element = 'change me!';
+      var element = document.querySelector('[data-js-training="blueviolet"]');
+      document.getE
+      var style = element.style;
+      element.setAttribute("style", "position:relative;");
+      style.top = '-20px'
 
 
       expect(element).to.have.deep.property(

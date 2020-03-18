@@ -1,0 +1,118 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/unkorori/.anyenv/envs/nodenv/versions/4.1.0/bin/node',
+1 verbose cli   '/Users/unkorori/.anyenv/envs/nodenv/versions/4.1.0/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.3
+3 info using node@v4.1.0
+4 verbose readDependencies loading dependencies from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/package.json
+5 verbose readDependencies npm-shrinkwrap.json is overriding dependencies
+6 info shrinkwrap file "/Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/npm-shrinkwrap.json"
+7 verbose readDependencies returned deps { bower: 'https://registry.npmjs.org/bower/-/bower-1.5.2.tgz',
+7 verbose readDependencies returned deps   'reveal-md': 'https://registry.npmjs.org/reveal-md/-/reveal-md-0.0.20.tgz',
+7 verbose readDependencies returned deps   'body-parser': '1.14.0',
+7 verbose readDependencies returned deps   express: '4.13.3',
+7 verbose readDependencies returned deps   gulp: '3.9.0',
+7 verbose readDependencies returned deps   'gulp-eslint': '1.0.0',
+7 verbose readDependencies returned deps   'gulp-help': '1.6.1',
+7 verbose readDependencies returned deps   'gulp-nodemon': '2.0.4',
+7 verbose readDependencies returned deps   'gulp-util': '3.0.6' }
+8 verbose install where, deps [ '/Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining',
+8 verbose install   [ 'bower',
+8 verbose install     'reveal-md',
+8 verbose install     'body-parser',
+8 verbose install     'express',
+8 verbose install     'gulp',
+8 verbose install     'gulp-eslint',
+8 verbose install     'gulp-help',
+8 verbose install     'gulp-nodemon',
+8 verbose install     'gulp-util' ] ]
+9 verbose install where, peers [ '/Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining',
+9 verbose install   [] ]
+10 verbose installManyTop reading for lifecycle /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/package.json
+11 info preinstall mixi-js-training@0.0.0
+12 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/body-parser/package.json
+13 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/bower/package.json
+14 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/express/package.json
+15 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp/package.json
+16 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp-eslint/package.json
+17 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp-help/package.json
+18 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp-nodemon/package.json
+19 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp-util/package.json
+20 verbose installManyTop reading scoped package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/reveal-md/package.json
+21 info package.json reveal-md@0.0.20 No license field.
+22 verbose readDependencies loading dependencies from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/package.json
+23 verbose readDependencies npm-shrinkwrap.json is overriding dependencies
+24 info shrinkwrap file "/Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/npm-shrinkwrap.json"
+25 verbose readDependencies returned deps { bower: 'https://registry.npmjs.org/bower/-/bower-1.5.2.tgz',
+25 verbose readDependencies returned deps   'reveal-md': 'https://registry.npmjs.org/reveal-md/-/reveal-md-0.0.20.tgz' }
+26 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/body-parser/package.json
+27 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/bower/package.json
+28 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/express/package.json
+29 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp/package.json
+30 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp-eslint/package.json
+31 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp-help/package.json
+32 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp-nodemon/package.json
+33 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/gulp-util/package.json
+34 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/reveal-md/package.json
+35 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/.bin/bower/package.json
+36 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/.bin/gulp/package.json
+37 verbose targetResolver reading package data from /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining/node_modules/.bin/reveal-md/package.json
+38 verbose already installed skipping express@4.13.3 /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+39 verbose already installed skipping gulp@3.9.0 /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+40 verbose already installed skipping gulp-eslint@1.0.0 /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+41 verbose already installed skipping gulp-help@1.6.1 /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+42 verbose already installed skipping gulp-nodemon@2.0.4 /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+43 verbose already installed skipping gulp-util@3.0.6 /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+44 verbose already installed skipping bower@https://registry.npmjs.org/bower/-/bower-1.5.2.tgz /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+45 verbose already installed skipping reveal-md@https://registry.npmjs.org/reveal-md/-/reveal-md-0.0.20.tgz /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+46 verbose already installed skipping body-parser@1.14.0 /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+47 silly install resolved []
+48 info build /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+49 info linkStuff mixi-js-training@0.0.0
+50 silly linkStuff mixi-js-training@0.0.0 has /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js as its parent node_modules
+51 verbose linkBins mixi-js-training@0.0.0
+52 verbose linkMans mixi-js-training@0.0.0
+53 verbose rebuildBundles mixi-js-training@0.0.0
+54 verbose rebuildBundles [ '.DS_Store',
+54 verbose rebuildBundles   '.bin',
+54 verbose rebuildBundles   'body-parser',
+54 verbose rebuildBundles   'bower',
+54 verbose rebuildBundles   'express',
+54 verbose rebuildBundles   'gulp',
+54 verbose rebuildBundles   'gulp-eslint',
+54 verbose rebuildBundles   'gulp-help',
+54 verbose rebuildBundles   'gulp-nodemon',
+54 verbose rebuildBundles   'gulp-util',
+54 verbose rebuildBundles   'reveal-md' ]
+55 info install mixi-js-training@0.0.0
+56 info postinstall mixi-js-training@0.0.0
+57 verbose unsafe-perm in lifecycle true
+58 info mixi-js-training@0.0.0 Failed to exec postinstall script
+59 verbose stack Error: mixi-js-training@0.0.0 postinstall: `bower install`
+59 verbose stack Exit status 1
+59 verbose stack     at EventEmitter.<anonymous> (/Users/unkorori/.anyenv/envs/nodenv/versions/4.1.0/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+59 verbose stack     at emitTwo (events.js:87:13)
+59 verbose stack     at EventEmitter.emit (events.js:172:7)
+59 verbose stack     at ChildProcess.<anonymous> (/Users/unkorori/.anyenv/envs/nodenv/versions/4.1.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+59 verbose stack     at emitTwo (events.js:87:13)
+59 verbose stack     at ChildProcess.emit (events.js:172:7)
+59 verbose stack     at maybeClose (internal/child_process.js:817:16)
+59 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+60 verbose pkgid mixi-js-training@0.0.0
+61 verbose cwd /Users/unkorori/Library/Mobile Documents/com~apple~CloudDocs/js/JavaScriptTraining
+62 error Darwin 18.7.0
+63 error argv "/Users/unkorori/.anyenv/envs/nodenv/versions/4.1.0/bin/node" "/Users/unkorori/.anyenv/envs/nodenv/versions/4.1.0/bin/npm" "install"
+64 error node v4.1.0
+65 error npm  v2.14.3
+66 error code ELIFECYCLE
+67 error mixi-js-training@0.0.0 postinstall: `bower install`
+67 error Exit status 1
+68 error Failed at the mixi-js-training@0.0.0 postinstall script 'bower install'.
+68 error This is most likely a problem with the mixi-js-training package,
+68 error not with npm itself.
+68 error Tell the author that this fails on your system:
+68 error     bower install
+68 error You can get their info via:
+68 error     npm owner ls mixi-js-training
+68 error There is likely additional logging output above.
+69 verbose exit [ 1, true ]
