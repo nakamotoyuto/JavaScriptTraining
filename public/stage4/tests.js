@@ -10,10 +10,10 @@ describe('ステージ4（意図通りにイベントを利用できる）', fun
       //
       // jQuery じゃない版:
       //
-      // var element = document.getElementById('firebrick');
-      // element.addEventListener('click', function() {
-      //   element.textContent = Number(element.textContent) + 1;
-      // });
+      var element = document.getElementById('firebrick');
+      element.addEventListener('click', function() {
+        element.textContent = Number(element.textContent) + 1;
+      });
       //
       // jQuery 版:
       //
@@ -37,6 +37,10 @@ describe('ステージ4（意図通りにイベントを利用できる）', fun
     it('2 番の要素の click イベントで要素内の数字を 1 ずつ小さくできる', function() {
 
       // ここにコードを記述してください。
+      var element = document.getElementById('chocolate');
+      element.addEventListener('click', function() {
+        element.textContent = Number(element.textContent) - 1;
+      })
 
 
       var chocolate = document.getElementById('chocolate');
@@ -50,7 +54,18 @@ describe('ステージ4（意図通りにイベントを利用できる）', fun
 
     it('3 番の要素の click イベントで要素を 10 度ずつ回転できる', function() {
 
-      // ここにコードを記述してください。
+      var element = document.querySelector('.mediumseagreen')
+      element.addEventListener('click', function() {
+        var transform = getComputedStyle(element, null).transform
+        if(transform === 'none'){
+          element.style.transform = 'rotate(10deg)'
+        }
+        else{
+          var number = element.style.transform.replace(/[^0-9]/g, '');
+          number = Number(number) + 10
+          element.style.transform = 'rotate(' + number + 'deg)'
+        }
+      })
 
 
       var mediumseagreen = document.querySelector('.mediumseagreen');
@@ -66,7 +81,13 @@ describe('ステージ4（意図通りにイベントを利用できる）', fun
 
     it('4 番の要素を入力された角度に回転できる', function() {
 
-      // ここにコードを記述してください。
+      // ここにコードを記述してください
+      var element = document.querySelector('.turquoise input')
+      var turquoise = document.querySelector('.turquoise')
+      element.addEventListener('change', () => {
+        var value = element.value
+        turquoise.style.transform = 'rotate(' + Number(value) + 'deg)'
+      })
 
 
       var turquoise = document.querySelector('.turquoise');
@@ -91,11 +112,12 @@ describe('ステージ4（意図通りにイベントを利用できる）', fun
       // このテストが意図通り成功するようにテストコードを修正してください。
       //
       // なお、expect(steelblue).to.be.null は上記のテストの要件を満たして
-      // いないので、正解ではありません。
-
+      // いないので、正解ではありません。ß
+      document.addEventListener('DOMContentLoaded', function() {
       var steelblue = document.querySelector('.steelblue');
       expect(steelblue).to.have.property('textContent', '5 \uD83D\uDC33');
       done();
+      });
     });
   });
 });
